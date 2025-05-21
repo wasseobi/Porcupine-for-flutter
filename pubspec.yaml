@@ -1,0 +1,40 @@
+name: porcupine_flutter_demo
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # newer versions of bottom_picker aren't compatible with older versions of Flutter
+  bottom_picker: 2.8.0
+  porcupine_flutter: ^3.0.4
+  path: ^1.8.0
+  permission_handler: ^11.0.0
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  lints: ^1.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/models/
+    - assets/keywords/android/
+    - assets/keywords/ios/
+    - assets/test_resources/
+    - assets/test_resources/audio_samples/
+    - assets/test_resources/keyword_files/
+    - assets/test_resources/model_files/
+
+
+
